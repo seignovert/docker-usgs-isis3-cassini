@@ -3,7 +3,7 @@ version: '3'
 services:
   isis3-cassini:
     build: .
-    image: seignovert/usgs-isis3-cassini
+    image: seignovert/isis3-cassini
     container_name: isis3-cassini
     hostname: isis3-cassini
     volumes:

@@ -4,8 +4,8 @@ Dockerfile for the Cassini mission
 Dockerfile for [Isis3 (USGS)](https://isis.astrogeology.usgs.gov/)
 =========================
 
-[![Docker Automated build](https://img.shields.io/docker/automated/seignovert/usgs-isis3-cassini.svg)](https://hub.docker.com/r/seignovert/usgs-isis3-cassini/)
-[![Docker Build Status](https://img.shields.io/docker/build/seignovert/usgs-isis3-cassini.svg)](https://hub.docker.com/r/seignovert/usgs-isis3-cassini/)
+[![Docker Automated build](https://img.shields.io/docker/automated/seignovert/isis3-cassini.svg)](https://hub.docker.com/r/seignovert/isis3-cassini/)
+[![Docker Build Status](https://img.shields.io/docker/build/seignovert/isis3-cassini.svg)](https://hub.docker.com/r/seignovert/isis3-cassini/)
 [![GitHub license](https://img.shields.io/github/license/seignovert/docker-usgs-isis3-cassini.svg)](https://github.com/seignovert/docker-usgs-isis3-cassini/blob/master/LICENSE.md)
 
 - Based on the latest (3.6) `seignovert/usgs-isis3`
@@ -14,7 +14,7 @@ Dockerfile for [Isis3 (USGS)](https://isis.astrogeology.usgs.gov/)
 
 Start Isis3 docker container:
 ```bash
-docker run --rm --volumes /path/to/local/cassini/data:/usgs/data/cassini -it seignovert/usgs-isis3-cassini
+docker run --rm --volumes /path/to/local/cassini/data:/usgs/data/cassini -it seignovert/isis3-cassini
 ```
 
 Docker compose
