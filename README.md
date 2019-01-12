@@ -33,13 +33,14 @@ docker-compose run --rm isis3-cassini
 
 Cassini kernels
 ----------------
-To use the SPICE routines, you may need to pull Cassini data (~30Gb) on your local file system. To retreive theses data from the USGS `isis` servers you only need to run:
+To use the SPICE routines, you may need to pull Cassini data (~30Gb) on your local file system.
+To retrieve theses data from the USGS `isis` servers you only need to run:
 ```
-rsync_cassini_data
+rsync_cassini_kernels
 ```
 
 Notes:
 -----
-- `testData` folder is excluded from `cassini/data`.
+- `testData/` and `kernels/` folders are excluded from `cassini/data` by default.
 
 > __Important:__ I have no affiliation with USGS. The package is provided as is, use at your own risk.
