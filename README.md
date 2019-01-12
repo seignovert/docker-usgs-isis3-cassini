@@ -8,7 +8,7 @@ Dockerfile for [Isis3 (USGS)](https://isis.astrogeology.usgs.gov/)
 [![Docker Build Status](https://img.shields.io/docker/build/seignovert/isis3-cassini.svg)](https://hub.docker.com/r/seignovert/isis3-cassini/)
 [![GitHub license](https://img.shields.io/github/license/seignovert/docker-usgs-isis3-cassini.svg)](https://github.com/seignovert/docker-usgs-isis3-cassini/blob/master/LICENSE.md)
 
-- Based on the latest (3.6) `seignovert/usgs-isis3`
+- Based on the latest (3.6.1) `seignovert/usgs-isis3`
 - Isis3 binaries are installed in `/usgs/isis/bin`
 - Isis3 data are installed in `/usgs/data`
 
@@ -24,12 +24,12 @@ To (re)build the container:
 docker-compose build
 ```
 
-To start the container with `PDS_DATA` and `$ISIS3DATA` shared folders:
+To start the container with `$PDS_DATA` and `$ISIS3DATA` shared folders:
 ```bash
 docker-compose run --rm isis3-cassini
 ```
 
-> __Note:__ `PDS_DATA` and `$ISIS3DATA` environment variables can be defined ub `.env` file, at the project root.
+> __Note:__ `$PDS_DATA` and `$ISIS3DATA` environment variables can be defined ub `.env` file, at the project root.
 
 Cassini kernels
 ----------------

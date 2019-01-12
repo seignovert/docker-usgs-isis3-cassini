@@ -1,4 +1,4 @@
-FROM seignovert/usgs-isis3:3.6
+FROM seignovert/usgs-isis3:latest
 
 LABEL maintainer="Seignovert"
 
